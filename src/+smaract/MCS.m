@@ -749,7 +749,7 @@ classdef MCS < smaract.MCSAbstract
             
             % SA_OpenSystem
             cLocation = sprintf('network:%s:%s', this.cHost, this.cPort);
-            cOptions = 'sync, reset';  
+            cOptions = 'sync';  
             
             % IMPORTANT
             % if you use double quotes around characters, this is a
